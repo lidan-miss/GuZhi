@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<link href="css/css.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="js/swiper.min.css">
+<style>
+html, body { position: relative; height: 100%; }
+.swiper-container { width: 100%; height: 100%; }
+.swiper-slide {  display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; background:url(images/bg_body.jpg) no-repeat center top; background-size:100% 100%; }
+</style>
+</head>
+
+<body>
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+    
+        <div class="swiper-slide">
+            <div class="container">
+                <div class="character"><img src="images/pic5.jpg"></div>
+                <div class="valuation-content">
+                    <div class="estimate">
+                        <dl class="public">
+                            <dt><img src="images/1.jpg"></dt>
+                            <dd>
+                              <span>巴拉巴拉小魔仙</span><br>
+                                微信id:Balabalagirl
+                          </dd>
+                        </dl>
+                      <div class="fans">
+                            <span>163324</span><br>
+                            预估粉丝
+                        </div>
+                    </div>
+                    
+                    <div class="valued-at">
+                        <h4>估值高达：</h4>
+                        <div class="numerical">
+                            <span class="n2"></span><span class="n3"></span><span class="n6"></span><span class="n8"></span><span class="wan"></span>
+                        </div>
+                        <div class="beat">打败99%的公众号</div>
+                    </div>
+                </div>
+                <div class="text"><img src="images/msg-text4.png" ></div>
+                <div class="more"><a href="javascript:;" class="next">向上滑动翻页</a></div>
+            </div>
+        </div>    
+         
+        <div class="swiper-slide">
+        	<div class="container">
+                <div class="character p2-char"><img src="images/pic_valuatio.jpg"></div>
+                <div class="text"><img src="images/valuation.png" ></div>
+                <div class="btns">
+                    <ul>
+                        <li><a href="#" class="btn btn-public-valuations"></a></li>
+                        <li><a href="#" class="btn btn-share"></a></li>
+                    </ul>
+                </div>
+                <div class="provide">
+                    估值数据由西瓜君提供<br>
+                    估值仅供参考，最终解释权归西瓜君所有
+                </div>
+            </div>
+            
+            <!--dialog-->
+            <!--<div class="mask"></div>
+            <div class="dialog">
+                <a href="#" class="close"></a>
+                <div class="dialog-c">
+                    <div class="code"><a href="#"></a></div>
+                    <div class="code-text"></div>
+                </div>
+            </div>-->
+            <!--/dialog-->
+        </div>  
+            
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+</div>
+<script src="js/swiper.min.js"></script>
+<script>
+var swiper = new Swiper('.swiper-container', {
+    direction: 'vertical',
+    nextButton: '.next',
+    prevButton: '.prev'
+});
+</script>
+</body>
+</html>
