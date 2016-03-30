@@ -24,7 +24,7 @@ html,body{position:relative;height:100%;}
 
 html { -webkit-text-size-adjust: none; font-size:62.5%; }
 body{ max-width:720px; margin:0 auto; font:normal 12px/1.5 "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;}
-.container{padding:10px 15px; height: 100%; box-sizing: border-box;}
+.container{padding:10px 15px; height: 100%; box-sizing: border-box; width: 100%;}
 .character{ text-align: center; height: 160px;}
 .p2-char{ height: 200px;}
 .character img{ max-width:100%; margin:0 auto; height: 100%;}

@@ -1,0 +1,23 @@
+{
+  "name": "guzhi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lidan-miss/GuZhi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lidan-miss/GuZhi/issues"
+  },
+  "devDependencies": {
+    "express": "^4.13.4"
+  },
+  "homepage": "https://github.com/lidan-miss/GuZhi#readme"
+}
