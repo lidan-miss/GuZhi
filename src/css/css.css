@@ -29,13 +29,13 @@ body{ max-width:720px; margin:0 auto; font:normal 12px/1.5 "Microsoft YaHei", "H
 .p2-char{ height: 200px;}
 .character img{ max-width:100%; margin:0 auto; height: 100%;}
 .valuation-content{ width:100%; height:228px; margin:0 auto 35px; color:#fae6c9;}
-.estimate{ padding:12px; font-size:12px; position:relative; background: url(../images/bg_valuation_1.png) no-repeat; background-size: 100% 100%; max-width:660px;}
+.estimate{ padding:12px; font-size:12px; position:relative; background: url(../images/bg_valuation_1.png) no-repeat; background-size: 100% 100%;}
 .public{ width:70%;}
 .public dt img{ width:36px; height:36px; border-radius:3px; float:left;}
 .public dd{ padding-left:42px; line-height:1.4;}
 .estimate span{ font-size:14px; font-weight:bold;}
 .fans{ position:absolute; right:12px; top:12px; width:28%; height:36px; line-height:1.4; text-align:center;}
-.valued-at{ padding:10px 20px; background: url(../images/bg_valuation_2.png) no-repeat; background-size: 100% 100%; max-width:660px;}
+.valued-at{ padding:10px 20px; background: url(../images/bg_valuation_2.png) no-repeat; background-size: 100% 100%;}
 .valued-at h4{ font-size:18px; font-weight:bold; margin-bottom:15px;}
 .numerical{ text-align:center; margin:0 auto 15px;}
 .numerical span{ background:url(../images/number.png) no-repeat; background-size:615px 47px; width:45px; height:47px; display:inline-block;}
@@ -76,7 +76,18 @@ body{ max-width:720px; margin:0 auto; font:normal 12px/1.5 "Microsoft YaHei", "H
 .dialog .code-text{ background:url(../images/attention.png) no-repeat; background-size:211px 55px; width:211px; height:55px; margin:0 auto;}
 .close{ background:url(../images/close.png) no-repeat;  background-size:25px 25px; width:25px; height:25px; display:block; position:absolute; right:-10px; top:-10px;}
 
+@media (min-width:721px){
+	.container{padding:30px; position:relative;}
+	.text{ padding:0 30px 30px;}
+}
 
+@media only screen and (max-height: 480px){
+	.valuation-content{ height: 180px;}
+	.character, .p2-char{ height: 150px;}
+	.valued-at{ height: 115px; padding-top: 5px;}
+	.valued-at h4{ margin-bottom: 10px;}
+	.numerical{ margin-bottom: 5px;}
+}
 @media only screen and (max-height: 440px){
 	.valuation-content{ height: 180px;margin:0 auto 20px;}
 	.character, .p2-char{ height: 100px;}
