@@ -19,17 +19,18 @@ ul,ol,dl{ list-style:none;}
 /* End hide from IE Mac */
 
 html,body{position:relative;height:100%;}
-.swiper-container {width: 100%;height: 100%;}
-.swiper-slide {  display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; background:url(../images/bg_body.jpg) no-repeat center top; background-size:100% 100%; }
+.swiper-container {width: 100%;height: 100%; background:url(../images/bg_body.jpg) no-repeat center top; background-size:100% 100%; }
+.swiper-slide {  display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center;}
 
 html { -webkit-text-size-adjust: none; font-size:62.5%; }
-body{ max-width:720px; margin:0 auto; font:normal 12px/1.5 "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;}
+body{ max-width:720px; margin:0 auto; font:normal 12px/1.5 "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif; }
 .container{padding:10px 15px; height: 100%; box-sizing: border-box; width: 100%;}
 .character{ text-align: center; height: 160px;}
 .p2-char{ height: 200px;}
 .character img{ max-width:100%; margin:0 auto; height: 100%;}
-.valuation-content{ width:100%; height:228px; margin:0 auto 35px; color:#fae6c9;}
-.estimate{ padding:12px; font-size:12px; position:relative; background: url(../images/bg_valuation_1.png) no-repeat; background-size: 100% 100%;}
+.valuation-content{ width:100%;/* height:228px;*/ margin:0 auto 35px; color:#fae6c9;}
+.estimate{ padding:12px; height:36px; font-size:12px; position:relative; background: url(../images/bg_valuation_1.png) no-repeat; background-size: 100% 100%;}
+.no-valuation{background: url(../images/bg_valuation_3.png) no-repeat; background-size: 100% 100%; margin:50px 0;}
 .public{ width:70%;}
 .public dt img{ width:36px; height:36px; border-radius:3px; float:left;}
 .public dd{ padding-left:42px; line-height:1.4;}
@@ -53,43 +54,68 @@ body{ max-width:720px; margin:0 auto; font:normal 12px/1.5 "Microsoft YaHei", "H
 .numerical .yuan{ background-position:-500px 0;width:50px}
 .numerical .yi{ background-position:-550px 0;width:50px}
 .numerical .doc{ background-position:-600px 0;width:15px}
+
+.sign{ -webkit-animation:zoomIn 0.5s 0.5s ease-in; -moz-animation:zoomIn 0.5s 0.5s ease-in; animation:zoomIn 0.5s 0.5s ease-in;}
+@keyframes zoomIn { 0%{ transform: scale(5); opacity:0;} 100% { transform: scale(1); opacity:1;}}
+@-moz-keyframes zoomIn { 0%{ -moz-transform: scale(5); opacity:0;} 100% { -moz-transform: scale(1); opacity:1;}}
+@-webkit-keyframes zoomIn { 0%{ -webkit-transform: scale(5); opacity:0;} 100% { -webkit-transform: scale(1); opacity:1;}}
+
 .beat{ text-align:center; font-size:18px; text-align:center;}
-.text{ padding:0 10px 30px; text-align:center;}
+.text{ padding:30px; text-align:center;}
 .text img{ width:100%; max-width:660px; margin:0 auto;}
 .more{color:#a14000; font-size:12px; text-align:center; position:absolute; left:50%; width:160px; margin-left:-80px; bottom:30px;}
 .more:before{ background:url(../images/up.png) no-repeat; background-size:10px 13px; width:10px; height:13px; content:""; display:inline-block; margin-right:10px;}
 .more:after{ background:url(../images/up.png) no-repeat; background-size:10px 13px; width:10px; height:13px; content:""; display:inline-block; margin-left:10px;}
 .more a{ color:#a14000; text-decoration:none; font-size:14px;}
 
-.btns{ text-align:center; margin:30px 0;}
+/*.slideDown{ -moz-animation:animate-stripes 1.5s ease-in-out infinite;-webkit-animation:animate-stripes 1.5s ease-in-out infinite}
+@-moz-keyframes animate-stripes{0%{-webkit-transform:translateY(-5px);transform:translateY(-5px);opacity:.8}50%{-webkit-transform:translateY(10px);transform:translateY(10px);opacity:1}to{transform:translateY(-5px)}}
+@-webkit-keyframes animate-stripes{0%{-webkit-transform:translateY(-5px);transform:translateY(-5px);opacity:.8}50%{-webkit-transform:translateY(10px);transform:translateY(10px);opacity:1}to{transform:translateY(-5px)}}
+@-ms-keyframes animate-stripes{0%{-webkit-transform:translateY(-5px);transform:translateY(-5px);opacity:.8}50%{-webkit-transform:translateY(10px);transform:translateY(10px);opacity:1}to{transform:translateY(-5px)}}
+@-o-keyframes animate-stripes{0%{-webkit-transform:translateY(-5px);transform:translateY(-5px);opacity:.8}50%{-webkit-transform:translateY(10px);transform:translateY(10px);opacity:1}to{transform:translateY(-5px)}}*/
+.slideDown{ -moz-animation:animate-stripes 1.5s ease-in-out infinite;-webkit-animation:animate-stripes 1.5s ease-in-out infinite}
+@keyframes animate-stripes{0%{-webkit-transform:translateY(-5px);transform:translateY(-5px);opacity:.8}30%{-webkit-transform:translateY(10px);transform:translateY(10px);opacity:1}to{transform:translateY(-5px)}}
+@-webkit-keyframes animate-stripes{0%,to{-webkit-transform:translateY(-5px);opacity:.8}30%{-webkit-transform:translateY(10px);opacity:1}to{-webkit-transform:translateY(-5px);opacity:.8}}
+@-moz-keyframes animate-stripes{0%,to{-webkit-transform:translateY(-5px);opacity:.8}30%{-webkit-transform:translateY(10px);opacity:1}to{-webkit-transform:translateY(-5px);opacity:.8}}
+@-ms-keyframes animate-stripes{0%,to{-webkit-transform:translateY(-5px);opacity:.8}30%{-webkit-transform:translateY(10px);opacity:1}to{-webkit-transform:translateY(-5px);opacity:.8}}
+@-o-keyframes animate-stripes{0%,to{-webkit-transform:translateY(-5px);opacity:.8}30%{-webkit-transform:translateY(10px);opacity:1}to{-webkit-transform:translateY(-5px);opacity:.8}}
+	
+.btns{ text-align:center;}
+.btns ul{ padding:50px 0;}
 .btns li{ margin-bottom:14px;}
 .btns .btn{ background:url(../images/btns.png) no-repeat; background-size:240px 88px; width:240px; height:44px; display:block; margin:0 auto;}
 .btns .btn-public-valuations{ background-position:0 0;}
 .btns .btn-share{ background-position:0 -44px;}
-.provide{ text-align:center; color:#a14000; font-size:14px;}
+.provide{ text-align:center; color:#a14000; font-size:14px; position:absolute; bottom:30px; width:80%; margin-left:-40%; left:50%;}
 /*dialog*/
 .mask{width:100%; height:100%; position:absolute; z-index:11; top:0; left:0; background:rgba(0, 0, 0, 0.6); padding:10px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
 .dialog{ background:#eedab6; border-radius:5px; z-index:100; position:absolute; width:80%; top:20%; left:50%; margin-left:-40%;}
 .dialog .dialog-c{ padding:30px;}
-.dialog .code{ background:url(../images/code.png) no-repeat; background-size:150px 150px; width:150px; height:150px; margin:0 auto 30px; z-index:999;}
-.dialog .code a{ width:150px; height:150px; display:block;}
+.dialog .code img{ width:150px; height:150px; display:block; margin:0 auto 30px;}
 .dialog .code-text{ background:url(../images/attention.png) no-repeat; background-size:211px 55px; width:211px; height:55px; margin:0 auto;}
 .close{ background:url(../images/close.png) no-repeat;  background-size:25px 25px; width:25px; height:25px; display:block; position:absolute; right:-10px; top:-10px;}
 
+.share-tips{ position: absolute; z-index:9999; left:0; top:0; width:100%; height:100%; background:url(../images/icon_tip_arrow_right.png) no-repeat right 12px; background-size:70px 70px;background-color:rgba(0,0,0,0.7);}
+.share-tips-main{ margin:85px 20px 0 20px; font-size:18px; color:#FFF; text-shadow:1px 1px 2px rgba(0,0,0,0.25); text-align:center;}
+
+		
 @media (min-width:721px){
 	.container{padding:30px; position:relative;}
 	.text{ padding:0 30px 30px;}
 }
 
 @media only screen and (max-height: 480px){
-	.valuation-content{ height: 180px;}
+	.valuation-content{margin:0 auto 10px;/* height: 180px;*/}
 	.character, .p2-char{ height: 150px;}
 	.valued-at{ height: 115px; padding-top: 5px;}
 	.valued-at h4{ margin-bottom: 10px;}
 	.numerical{ margin-bottom: 5px;}
+	.btns ul{ padding:10px 0;}
+	.text{ padding:10px 20px;}
+	
 }
 @media only screen and (max-height: 440px){
-	.valuation-content{ height: 180px;margin:0 auto 20px;}
+	.valuation-content{ /*height: 180px;*/margin:0 auto 10px; }
 	.character, .p2-char{ height: 100px;}
 	.valued-at{ height: 115px; padding-top: 5px;}
 	.valued-at h4{ margin-bottom: 10px;}
@@ -99,7 +125,8 @@ body{ max-width:720px; margin:0 auto; font:normal 12px/1.5 "Microsoft YaHei", "H
 
 @media only screen and (min-height: 500px){
 	.character, .p2-char{ height: 160px;}
-	.valuation-content{ height: 200px;}
+	.valuation-content{/* height: 200px;*/}
+	.text{ padding:10px 20px;}
 }
 
 @media only screen and (min-height: 600px){
