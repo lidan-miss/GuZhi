@@ -19,27 +19,26 @@ ul,ol,dl{ list-style:none;}
 /* End hide from IE Mac */
 
 html,body{position:relative;height:100%;}
-.swiper-container {width: 100%;height: 100%; background:url(../images/bg_body.jpg) no-repeat center top; background-size:100% 100%; }
-.swiper-slide {  display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center;}
+.swiper-container {width: 100%;height: 100%; background:url(http://7xim13.com1.z0.glb.clouddn.com/estimate/bg_body.jpg) no-repeat center top; background-size:100% 100%; }
+.swiper-slide {  display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; }
 
 html { -webkit-text-size-adjust: none; font-size:62.5%; }
-body{ max-width:720px; margin:0 auto; font:normal 12px/1.5 "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif; }
-.container{padding:10px 15px; height: 100%; box-sizing: border-box; width: 100%;}
+body{ max-width:720px; margin:0 auto; font:normal 12px/1.5 "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;}
+.container{padding:10px 15px; height: 100%; box-sizing: border-box; width:100%;}
 .character{ text-align: center; height: 160px;}
 .p2-char{ height: 200px;}
 .character img{ max-width:100%; margin:0 auto; height: 100%;}
-.valuation-content{ width:100%;/* height:228px;*/ margin:0 auto 20px; color:#fae6c9;}
-.estimate{ padding:12px; height:36px; font-size:12px; position:relative; background: url(../images/bg_valuation_1.png) no-repeat; background-size: 100% 100%;}
-.no-valuation{background: url(../images/bg_valuation_3.png) no-repeat; background-size: 100% 100%; margin:50px 0;}
-.public{ width:70%;}
+.valuation-content{ width:100%; margin:0 auto 35px; color:#fae6c9;}
+.estimate{ padding:12px; height:36px; font-size:12px; position:relative; background: url(http://7xim13.com1.z0.glb.clouddn.com/estimate/bg_valuation_1.png) no-repeat; background-size: 100% 100%;}
+.no-valuation{background: url(http://7xim13.com1.z0.glb.clouddn.com/estimate/bg_valuation_3.png) no-repeat; background-size: 100% 100%; margin:50px 0;}
 .public dt img{ width:36px; height:36px; border-radius:3px; float:left;}
 .public dd{ padding-left:42px; line-height:1.4;}
 .estimate span{ font-size:14px; font-weight:bold;}
 .fans{ position:absolute; right:12px; top:12px; width:28%; height:36px; line-height:1.4; text-align:center;}
-.valued-at{ padding:10px 20px; background: url(../images/bg_valuation_2.png) no-repeat; background-size: 100% 100%;}
+.valued-at{ padding:10px 20px; background: url(http://7xim13.com1.z0.glb.clouddn.com/estimate/bg_valuation_2.png) no-repeat; background-size: 100% 100%;}
 .valued-at h4{ font-size:18px; font-weight:bold; margin-bottom:15px;}
-.numerical{ text-align:center; margin:0 auto 15px;}
-.numerical span{ background:url(../images/number.png) no-repeat; background-size:615px 47px; width:45px; height:47px; display:inline-block;}
+.numerical{ text-align:center; margin:0 auto 10px;}
+.numerical span{ background:url(http://7xim13.com1.z0.glb.clouddn.com/estimate/number.png) no-repeat; background-size:615px 47px; width:45px; height:47px; display:inline-block;}
 .numerical .n0{ background-position:0 0;}
 .numerical .n1{ background-position:-45px 0;}
 .numerical .n2{ background-position:-90px 0;}
@@ -54,18 +53,15 @@ body{ max-width:720px; margin:0 auto; font:normal 12px/1.5 "Microsoft YaHei", "H
 .numerical .yuan{ background-position:-500px 0;width:50px}
 .numerical .yi{ background-position:-550px 0;width:50px}
 .numerical .doc{ background-position:-600px 0;width:15px}
-.watermelon-value{ background:url(../images/dollars.png) no-repeat; background-size:250px 65px; width:250px; height:65px; margin:0 auto;}
+.watermelon-value{ background:url(http://7xim13.com1.z0.glb.clouddn.com/estimate/dollars.png) no-repeat; background-size:250px 65px; width:250px; height:65px; margin:0 auto;}
 
-.beat{ opacity:0; text-align:center; font-size:18px; text-align:center; -webkit-animation:rightToLeft 0.8s 1.1s; -moz-animation:rightToLeft 0.8s 1.1s; animation:rightToLeft 0.8s 1.1s; -webkit-animation-fill-mode:forwards; -moz-animation-fill-mode:forwards; animation-fill-mode:forwards;}
-.text{ padding:0 30px; text-align:center;}
-
+.beat{ opacity:0; text-align:center; padding-bottom:5px; font-size:18px; text-align:center; -webkit-animation:rightToLeft 0.8s 1.1s; -moz-animation:rightToLeft 0.8s 1.1s; animation:rightToLeft 0.8s 1.1s; -webkit-animation-fill-mode:forwards; -moz-animation-fill-mode:forwards; animation-fill-mode:forwards;}
+.text{ padding:0 30px; text-align:center;color:#a14000; font-weight:bold;}
+.text span{ font-size:30px; }
 .text img{ width:100%; max-width:660px; margin:0 auto;}
-.text-xigua{text-align:center;color:#a14000; font-weight:bold; position:absolute; bottom:80px; width:90%; margin-left:-45%; left:50%;}
-.text-xigua span{ font-size:30px; }
-
 .more{color:#a14000; font-size:12px; text-align:center; position:absolute; left:50%; width:160px; margin-left:-80px; bottom:30px;}
-.more:before{ background:url(../images/up.png) no-repeat; background-size:10px 13px; width:10px; height:13px; content:""; display:inline-block; margin-right:10px;}
-.more:after{ background:url(../images/up.png) no-repeat; background-size:10px 13px; width:10px; height:13px; content:""; display:inline-block; margin-left:10px;}
+.more:before{ background:url(http://7xim13.com1.z0.glb.clouddn.com/estimate/up.png) no-repeat; background-size:10px 13px; width:10px; height:13px; content:""; display:inline-block; margin-right:10px;}
+.more:after{ background:url(http://7xim13.com1.z0.glb.clouddn.com/estimate/up.png) no-repeat; background-size:10px 13px; width:10px; height:13px; content:""; display:inline-block; margin-left:10px;}
 .more a{ color:#a14000; text-decoration:none; font-size:14px;}
 
 .sign{ opacity:0; -webkit-animation:zoomIn 0.5s 0.5s ease-in; -moz-animation:zoomIn 0.5s 0.5s ease-in; animation:zoomIn 0.5s 0.5s ease-in; -webkit-animation-fill-mode:forwards; -moz-animation-fill-mode:forwards; animation-fill-mode:forwards;}
@@ -92,53 +88,50 @@ body{ max-width:720px; margin:0 auto; font:normal 12px/1.5 "Microsoft YaHei", "H
 @-webkit-keyframes tinyY{0%{-webkit-transform: translateY(10px); opacity:0;}50%{-webkit-transform: translateY(0px); opacity:1;}100% {-webkit-transform:translateY(-10px); opacity:0;}}
 @-moz-keyframes tinyY{0%{-moz-transform: translateY(10px); opacity:0;}50%{-webkit-transform: translateY(0px); opacity:1;}100% {-moz-transform:translateY(-10px); opacity:0;}}
 @keyframes tinyY{0%{transform: translateY(10px); opacity:0;}50%{-webkit-transform: translateY(0px); opacity:1;}100%{transform: translateY(-10px); opacity:0;}}
-	
+
 .btns{ text-align:center;}
 .btns ul{ padding:50px 0;}
 .btns li{ margin-bottom:14px;}
-.btns .btn{ background:url(../images/btns.png) no-repeat; background-size:240px 88px; width:240px; height:44px; display:block; margin:0 auto;}
+.btns .btn{ background:url(http://7xim13.com1.z0.glb.clouddn.com/estimate/btns.png) no-repeat; background-size:240px 88px; width:240px; height:44px; display:block; margin:0 auto;}
 .btns .btn-public-valuations{ background-position:0 0;}
 .btns .btn-share{ background-position:0 -44px;}
 .provide{ text-align:center; color:#a14000; font-size:14px; position:absolute; bottom:30px; width:80%; margin-left:-40%; left:50%;}
 /*dialog*/
 .mask{width:100%; height:100%; position:absolute; z-index:11; top:0; left:0; background:rgba(0, 0, 0, 0.6); padding:10px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
 .dialog{ background:#eedab6; border-radius:5px; z-index:100; position:absolute; width:80%; top:20%; left:50%; margin-left:-40%;}
-.dialog .dialog-c{ padding:30px;}
+.dialog .dialog-c{ padding: 30px;}
 .dialog .code img{ width:150px; height:150px; display:block; margin:0 auto 30px;}
-.dialog .code-text{ background:url(../images/attention.png) no-repeat; background-size:211px 55px; width:211px; height:55px; margin:0 auto;}
-.close{ background:url(../images/close.png) no-repeat;  background-size:25px 25px; width:25px; height:25px; display:block; position:absolute; right:-10px; top:-10px;}
+.dialog .code-text{ background:url(http://7xim13.com1.z0.glb.clouddn.com/estimate/attention.png) no-repeat; background-size:211px 55px; width:211px; height:55px; margin:0 auto;}
+.close{ background:url(http://7xim13.com1.z0.glb.clouddn.com/estimate/close.png) no-repeat;  background-size:25px 25px; width:25px; height:25px; display:block; position:absolute; right:-10px; top:-10px;}
 
-.share-tips{ position: absolute; z-index:9999; left:0; top:0; width:100%; height:100%; background:url(../images/icon_tip_arrow_right.png) no-repeat right 12px; background-size:70px 70px;background-color:rgba(0,0,0,0.7);}
+.share-tips{ position: absolute; z-index:9999; left:0; top:0; width:100%; height:100%; background:url(http://7xim13.com1.z0.glb.clouddn.com/estimate/icon_tip_arrow_right.png) no-repeat right 12px; background-size:70px 70px;}
 .share-tips-main{ margin:85px 20px 0 20px; font-size:18px; color:#FFF; text-shadow:1px 1px 2px rgba(0,0,0,0.25); text-align:center;}
-
-		
 @media (min-width:721px){
 	.container{padding:30px; position:relative;}
 	.text{ padding:0 30px 30px;}
 }
 
+
 @media only screen and (max-height: 480px){
-	.valuation-content{margin:0 auto 10px; /*height: 180px;*/}
+	.valuation-content{margin:0 auto 10px;}
 	.character, .p2-char{ height: 150px;}
 	.valued-at{ height: 115px; padding-top: 5px;}
 	.valued-at h4{ margin-bottom: 10px;}
 	.numerical{ margin-bottom: 5px;}
 	.btns ul{ padding:10px 0;}
-	.watermelon-value{  background-size:250px 50px; width:250px; height:50px;}
-	
+	.watermelon-value{  background-size:250px 50px; width:250px; height:50px;}	
 }
+
 @media only screen and (max-height: 440px){
-	.valuation-content{ /*height: 180px;margin:0 auto 10px; */}
 	.character, .p2-char{ height: 100px;}
 	.valued-at{ height: 115px; padding-top: 5px;}
 	.valued-at h4{ margin-bottom: 10px;}
 	.numerical{ margin-bottom: 5px;}
 }
 
-
 @media only screen and (min-height: 500px){
+	
 	.character, .p2-char{ height: 160px;}
-	.valuation-content{/* height: 200px;*/}
 }
 
 @media only screen and (min-height: 600px){
@@ -148,3 +141,6 @@ body{ max-width:720px; margin:0 auto; font:normal 12px/1.5 "Microsoft YaHei", "H
 @media only screen and (min-height: 700px){
 	.character, .p2-char{ height: 250px;}
 }
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+	.valuation-content{margin:0 auto 10px;}}
+
